@@ -1,0 +1,36 @@
+<html>
+<head>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/googleapi.js"></script>
+</head>
+<body>
+<br>
+<br>
+<br>
+<br>
+<div class="row">
+
+    <div class="card-panel col offset-s1 offset-l2 s10 l8 ">
+        <!--<div id="authorize-div" style="display: none">-->
+        <div id="authorize-div" class="row center" style="display: none">
+            <br>
+            <div class="row center"><img src="img/google.jpg" width="128"></div>
+            <div class="row">
+                <div class="center"><h2>SCUScheduler</h2></div>
+                <div class="center"><h5>一键同步教务处课表与Google Calendar</h5></div>
+
+            </div>
+            <div class="row center">
+                <a id="authorize-button" class="waves-effect waves-light btn" href="javascript:handleAuthClick(event)">登录Google账户</a>
+            </div>
+        </div>
+        <pre id="output"></pre>
+    </div>
+
+</div>
+<script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+</html>

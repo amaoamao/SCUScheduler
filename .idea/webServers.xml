@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="bb7fb5f7-5481-46f8-b5b3-fe3353702d5e" name="Aliyun" url="http://weixin.i-teacher.net">
+        <fileTransfer host="weixin.i-teacher.net" port="22" privateKey="$USER_HOME$/.ssh/id_rsa" rootFolder="/usr/local/tomcat" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
