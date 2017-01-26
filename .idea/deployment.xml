@@ -6,7 +6,6 @@
         <serverdata>
           <mappings>
             <mapping deploy="/webapps/SCUScheduler" local="$PROJECT_DIR$" web="/SCUScheduler" />
-            <mapping deploy="/webapps/SCUScheduler/js" local="$PROJECT_DIR$/js" web="/SCUScheduler/js" />
           </mappings>
         </serverdata>
       </paths>
